@@ -8,6 +8,14 @@ body {
 }
 
 
+/*--------------------------imagen de fondo---------------------------*/
+
+#imgfondo {
+  
+    width:100%;
+  }
+
+
 /*--------------------------clases e IDs ---------------------------*/
 .permanent {
     font-family: 'Permanent Marker', cursive;
