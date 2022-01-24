@@ -22,9 +22,12 @@
     </div>
     <div class="row" style="position: relative;"  >
        <!-- style="background-image: url(images/japancity.jpg); " -->
-       <img src="images/japancity.jpg" id="imgfondo" >
-        <!--buscar propiedad para que la imagen se redimensione y sea visible toda
-        la imagen más grande o más pequeña cambio de móvil a ordenador-->
+       <img src="images/japancity.jpg" id="imgfondo"  style="aspect-ratio: 2.5/ 1!important;"   >
+
+        <!--cambiando el aspect ratio y teniendo width 100% al hacer más grande o más 
+        pequeña la página la imagen sale entera siempre con ese aspecto se ve la barra de 
+        nav tambien -->
+
             <section class="col-md" style="position: absolute;margin-top: 2em;">
                 <img src="images/andres.jpg" alt="andres" 
                 class="rounded-circle shadow-lg p-3 mb-5 bg-white rounded 
@@ -34,8 +37,13 @@
                          <p class="centrado">Front-End Web Developer</p>
                         
          </section>
-         
+        
     </div>
+    <!-- Mirar la position absolute de andrius y front end web developer, al cambiar de tamaño la 
+               ventana -->
+
+
+
     <div class="row">
             <!--Poner visible proinfo y si pincha en aboutme, poner visible about me e invisible el 
         profinfo-->
