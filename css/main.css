@@ -68,6 +68,17 @@ body {
     margin-top: 2em;
 }
 
+ /*---imagen andres --*/
+
+ img.rounded-circle.shadow-lg.p-3.mb-5.bg-white.rounded.center-block.andres {
+    padding: 0rem!important;
+}
+
+#imgfondo { 
+    aspect-ratio: 2.5/ 1;
+   
+}
+
 /*----------------parte de abajo------------------------*/
 
 
@@ -128,4 +139,18 @@ h1 {
         text-align: unset;  
         
     }
+
+
+   
+
  }
+
+/*----------móviles extra pequeños   ---*/
+
+@media (min-width: 100px) and (max-width: 480px) { 
+
+    #imgfondo {
+        aspect-ratio: 1.7/ 1!important;
+       
+    }
+}
