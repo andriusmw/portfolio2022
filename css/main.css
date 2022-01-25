@@ -46,12 +46,20 @@ body {
 .andres {
     width: 20%;
     height: 40%;
-    margin-left: 40%;
+  /*  margin-left: 40%; */
 }
 /*---para el título   --*/
-.centrado {
-    text-align: center;
+.tituloandres {
+    margin-left: 2em;
     color: rgb(34, 116, 240);
+    text-align: unset;
+}
+
+.tituloprof {
+    margin-left: 2em;
+    color: rgb(34, 116, 240);
+    text-align: unset;  
+    
 }
 
 .whoami {
