@@ -61,6 +61,15 @@ body {
     text-align: unset;  
     
 }
+/*-----------div del título---------------*/
+
+/*section.col-md {
+    position: absolute;
+    margin-top: 2em;
+}
+
+/*----------------parte de abajo------------------------*/
+
 
 .whoami {
     width: 95%;
@@ -91,3 +100,32 @@ h1 {
     text-align: center;
 }
 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 767px) { 
+
+
+ }
+ 
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) { 
+
+    .tituloandres {
+        color: rgb(34, 116, 240);
+        text-align: unset;
+        margin-left: 1em;
+        font-size: 1.2rem;
+    }
+    
+    .cabecera {
+        position: absolute;
+        margin-top: 0.5em!important;
+    }
+    .tituloprof {
+        margin-left: 2em;
+        color: rgb(34, 116, 240);
+        text-align: unset;  
+        
+    }
+ }
