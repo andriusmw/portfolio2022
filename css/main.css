@@ -53,12 +53,15 @@ body {
     margin-left: 2em;
     color: rgb(34, 116, 240);
     text-align: unset;
+    padding-left: 5em;
+    margin-top: 2em;
 }
 
 .tituloprof {
     margin-left: 2em;
     color: rgb(34, 116, 240);
-    text-align: unset;  
+    text-align: unset; 
+    padding-left: 13em; 
     
 }
 /*-----------div del título---------------*/
@@ -111,6 +114,9 @@ h1 {
     text-align: center;
 }
 
+
+
+
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
 @media (max-width: 767px) { 
@@ -120,13 +126,15 @@ h1 {
  
 /* Móviles en vertical
    ------------------------------------------------------------------------- */
-@media (max-width: 480px) { 
+@media (max-width: 500px) { 
 
     .tituloandres {
         color: rgb(34, 116, 240);
         text-align: unset;
         margin-left: 1em;
         font-size: 1.2rem;
+        padding-left: 1em; 
+        margin-top: 0em;
     }
     
     .cabecera {
@@ -137,7 +145,7 @@ h1 {
         margin-left: 2em;
         color: rgb(34, 116, 240);
         text-align: unset;  
-        
+        padding-left: 0em; 
     }
 
 
@@ -147,10 +155,19 @@ h1 {
 
 /*----------móviles extra pequeños   ---*/
 
-@media (min-width: 100px) and (max-width: 480px) { 
+@media (min-width: 100px) and (max-width: 500px) { 
 
     #imgfondo {
         aspect-ratio: 1.7/ 1!important;
+       
+    }
+}
+
+
+@media (min-width: 1px) and (max-width: 179px) { 
+
+    #imgfondo {
+        aspect-ratio: 1.2/ 1!important;
        
     }
 }
