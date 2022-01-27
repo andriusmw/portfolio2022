@@ -125,6 +125,7 @@ h1 {
 .skills {
     text-align: left;
     padding-left: 15px;
+    float: left;
 }
 
 /* Móviles en horizontal o tablets en vertical
