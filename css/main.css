@@ -117,8 +117,15 @@ h1 {
     text-align: center;
 }
 
+.estrella  {
+    width: 1.5em;
+    margin-left: 5px;
+}
 
-
+.skills {
+    text-align: left;
+    padding-left: 15px;
+}
 
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
