@@ -214,6 +214,10 @@ h1 {
     #skillsect {
         text-align: center;
     }
+
+    #github.coffee {
+        width: 50%;
+    }
  
 }
 
@@ -227,5 +231,9 @@ h1 {
 
     #skillsect {
         text-align: center;
+    }
+
+    #github.coffee {
+        width: 50%;
     }
 }
