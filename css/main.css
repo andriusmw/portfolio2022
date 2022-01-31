@@ -189,6 +189,11 @@ h1 {
         padding-left: 15px;
         float: none;
     }
+
+    #skills {
+        text-align: center;
+    }
+ 
 }
 
 
@@ -197,5 +202,9 @@ h1 {
     #imgfondo {
         aspect-ratio: 1.2/ 1!important;
        
+    }
+
+    #skills {
+        text-align: center;
     }
 }
