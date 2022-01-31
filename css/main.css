@@ -136,7 +136,15 @@ h1 {
    ------------------------------------------------------------------------- */
 @media (max-width: 767px) { 
 
+    .skills {
+        text-align: center;
+        padding-left: 15px;
+        float: none;
+    }
 
+    #skillsect {
+        text-align: center;
+    }
  }
  
 /* Móviles en vertical
@@ -163,7 +171,9 @@ h1 {
         padding-left: 0em; 
     }
 
-
+    #skillsect {
+        text-align: center;
+    }
    
 
  }
@@ -190,7 +200,7 @@ h1 {
         float: none;
     }
 
-    #skills {
+    #skillsect {
         text-align: center;
     }
  
@@ -204,7 +214,7 @@ h1 {
        
     }
 
-    #skills {
+    #skillsect {
         text-align: center;
     }
 }
