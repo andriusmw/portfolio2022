@@ -218,6 +218,14 @@ h1 {
     #github.coffee {
         width: 50%;
     }
+
+    #github{
+        width: 40%;
+    }
+    #linkedin {
+        width: 40%;
+        
+    }
  
 }
 
@@ -235,5 +243,14 @@ h1 {
 
     #github.coffee {
         width: 50%;
+    }
+
+   
+    #github{
+        width: 60%;
+    }
+    #linkedin {
+        width: 60%;
+        
     }
 }
