@@ -132,9 +132,20 @@ h1 {
     width: 20%;
 }
 
+/* Ordenadores pequeños 
+   ------------------------------------------------------------------------- */
+   @media  (min-width: 767px) and (max-width: 1115px) {
+
+    .estrella {
+        width: 0.5em;
+    }
+
+   }
+
+
 /* Móviles en horizontal o tablets en vertical
    ------------------------------------------------------------------------- */
-@media (max-width: 767px) { 
+@media  (max-width: 767px) { 
 
     .skills {
         text-align: center;
