@@ -14,6 +14,11 @@
     <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   </head>
+
+<!------------------------------------------------BODY---------------------------------------------->
+
+<!--COMIENZA LA CABECERA-->
+
   <body class="container-fluid">
     <div class="row">
         <header class="col-md" style="padding: 0;">
@@ -39,14 +44,13 @@
          </section>
         
     </div>
-    <!-- Mirar la position absolute de andrius y front end web developer, al cambiar de tamaño la 
-               ventana  -- HECHO -->
-
+    
+<!--------------------------------ENLACES DE LA CABECERA---------------------------------------------------->
 
 
     <div class="row">
-            <!--Poner visible proinfo y si pincha en aboutme, poner visible about me e invisible el 
-        profinfo-->
+           <!--Si pincha en una sección se muestra y oculta la otra, por defecto visible
+                personal info y oculta about me-->
             <section class="col-md shadow-lg p-3 mb-5" id="profinfo" style="margin-bottom: 0!important;"> 
                     <!--poner enlace interno-->
                  <a onclick="MyfunctionPROFINFO()"><p>PROFESIONAL INFO</p></a> 
@@ -166,7 +170,7 @@
      <div class="row" id="persosection" style="display: none;">
                 <section class="col-md-6">
                                 <img class="whoami" src="images/collapse-1-con-matrix.png" alt="andriusmw">
-                                <!--imagen de manga, ejercicio, etc-->
+                                
                 </section>
                 <section class="col-md-6" style="text-align: center;">
                         <h1 class="permanent">About me</h1>
@@ -221,17 +225,17 @@
          </div>
 
 
+
+
+<!--------------------------------------JAVASCRIPT FUNCIONES--------------------------------------------->
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
  
-
-
-
-
-
 
 <script>
 function MyfunctionABOUTME() {
