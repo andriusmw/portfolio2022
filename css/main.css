@@ -87,6 +87,10 @@ body {
 
 /*----------------parte de abajo------------------------*/
 
+footer  {
+
+    background-color: rgb(34, 116, 240);
+}
 
 .whoami {
     width: 95%;
