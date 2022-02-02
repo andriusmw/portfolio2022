@@ -94,6 +94,7 @@ footer  {
 
 .whoami {
     width: 95%;
+    margin-top: 2em;
 }
 
 
@@ -117,6 +118,8 @@ p {
     
     
 }
+
+
 
 h1 {
     text-align: center;
