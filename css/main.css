@@ -282,27 +282,32 @@ h1 {
     width: 5px;
     height: 5px;  
   
-    background: yellow;
+    background: red;
     margin-left: 60px;
     border-radius: 50%;
-    box-shadow: 0 0 0 5px rgb(gold),
-        0 0 5px yellow,
-        0 0 10px yellow;
-    animation: animate 15s linear infinite;
+    box-shadow: 0 0 0 5px rgb(red),
+        0 0 10px red,
+        0 0 10px red;
+    animation: animate 15s alternate-reverse infinite;
     animation-duration: calc(125s / var(--i));
 
 }
 
 .bubbles span:nth-child(even){
-    background: greenyellow;
-    box-shadow: 0 0 0 5px gold,
-    0 0 5px gold,
-    0 0 10px gold;
+    background: lightseagreen;
+    box-shadow: 0 0 0 5px blue,
+    0 0 10px lightblue,
+    0 0 10px lightblue;
 }
+
+
+
+
 
 @keyframes animate {
     0% {
         transform: translateY(100vh) scale(0);
+        
     }
     100% {
         transform: translateY(-10vh) scale(1);
